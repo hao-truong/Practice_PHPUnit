@@ -1,0 +1,22 @@
+{
+    "name": "tai-vu/phpunit_exp",
+    "description": "Explore PHPUnit",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "scripts": {
+        "test_unix": "./vendor/bin/phpunit test",
+        "test_win": "vendor\\bin\\phpunit test"
+    },
+    "authors": [
+        {
+            "name": "tai-vu",
+            "email": "tai-vu@cybozu.vn"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
